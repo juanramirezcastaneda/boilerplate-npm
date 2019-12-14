@@ -1,19 +1,29 @@
 {
-	"author": "juan sebastian ramirez",
-	"description": "this is the template for api projects",
-	"name": "fcc-learn-npm-package-json",
-	"dependencies": {
-		"express": "^4.14.0"
-	},
-	"main": "server.js",
-	"scripts": {
-		"start": "node server.js"
-	},
-	"engines": {
-		"node": "8.11.2"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://idontknow/todo.git"
-	}
+  "author": "juan sebastian ramirez",
+  "description": "this is the main description for boilerplate",
+  "keywords": [
+    "node",
+    "template",
+    "express",
+    "api",
+    "freecodecamp"
+  ],
+  "license": "MIT",
+  "name": "fcc-learn-npm-package-json",
+  "version": "0.0.0",
+  "dependencies": {
+    "express": "^4.14.0",
+    "moment": "^2.10.2"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "8.11.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://idontknow/todo.git"
+  }
 }
